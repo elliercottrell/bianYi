@@ -1,0 +1,74 @@
+:root {
+  --primary-font-family: "Roboto Mono";
+  --secondary-font-family: ;
+  --primary-color: #e65a60;
+  --secondary-color: #142440;
+  --highlight-color: #fb6662;
+  --alt-color: #007a50;
+  --alt-highlight: #ef87a4;
+  --alt-dark: #17263e;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+
+p {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.dictionary {
+  max-width: 457px;
+  text-align: center;
+  margin-top: 200px;
+}
+.searchBar {
+  display: flex;
+  align-items: baseline;
+}
+
+#search {
+  width: 200px;
+  height: 50px;
+  border: solid 3px var(--secondary-color);
+  background-color: var(--highlight-color);
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  color: var(--secondary-color);
+  outline: none;
+}
+
+#search:hover,
+#search:active {
+  outline: none;
+}
+
+#searchButton {
+  width: 150px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  border: solid 3px var(--secondary-color);
+  background-color: var(--highlight-color);
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+#searchButton:hover {
+  background-color: var(--secondary-color);
+  color: var(--highlight-color);
+}
