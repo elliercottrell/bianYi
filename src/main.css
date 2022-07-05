@@ -41,6 +41,7 @@ p {
 #search {
   width: 200px;
   height: 50px;
+  border-radius: 0;
   border: solid 3px var(--secondary-color);
   background-color: var(--highlight-color);
   font-family: var(--primary-font-family);
