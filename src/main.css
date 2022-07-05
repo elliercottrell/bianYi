@@ -1,5 +1,5 @@
 :root {
-  --primary-font-family: "Roboto Mono";
+  --primary-font-family: "Roboto Mono", monospace;
   --secondary-font-family: ;
   --primary-color: #e65a60;
   --secondary-color: #142440;
