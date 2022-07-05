@@ -11,10 +11,10 @@ let dictionary = {
 let explain = {
   hello: ``,
   bye: `<center><em>See you again</em></center>`,
-  what: `啥意思 <em>sháyìsī : What meaning?(I don't understand)</em> </br> 没有什么 <em> méi yǒu shén me : It's nothing </em></br> 什么鬼？<em> shén me guǐ : What ghost?(What the hell)</em> `,
+  what: `<b>啥意思</b> sháyìsī : <em><small>What meaning?(I don't understand)</em></small> </br> 没有什么 <em> méi yǒu shén me : It's nothing </em></br> 什么鬼？<em> shén me guǐ : What ghost?(What the hell)</em> `,
   pig: `<center><em>Measure:</em> 口 <em>kŏu</em></center>`,
   panda: `<em>Variant:</em> 猫熊 <em>māoxióng </br> Measure:</em> 只 <em> zhī</em>`,
-  rabbit: `<em>Variants:</em> 兔 <em>tù</em> / 兔儿 <em>tù-r </br> Measure:</em> 只 <em> zhī</em>`,
+  rabbit: `<em><small>Variants:</small></em><b> 兔 </b>tù /<b> 兔儿</b> tù-r </br> <em><small>Measure:</small></em> <b>只</b> zhī`,
   cat: `猫仔 māozǎi <em> kitten</em> </br> 猫叫 māojiào <em> purring; mewing </br> Measure:</em> 只 <em> zhī</em>`,
 };
 
