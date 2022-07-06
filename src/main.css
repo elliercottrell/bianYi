@@ -49,6 +49,7 @@ p {
   font-weight: 600;
   color: var(--secondary-color);
   outline: none;
+  text-indent: 10px;
 }
 
 #search:hover,
