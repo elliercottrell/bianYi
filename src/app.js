@@ -10,6 +10,11 @@ let dictionary = {
   monkey: `猴子 </br><em><small>hóuzi</small></em>`,
   koala: `树袋熊 </br><em><small>shùdàixióng</small></em>`,
   bear: `熊 </br><em><small>xióng</small></em>`,
+  hedgehog: `刺猬 </br><em><small>cìwei</small></em>`,
+  duck: `鸭子 </br><em><small>yāzi</small></em>`,
+  cow: `牛 </br><em><small>niú</small></em>`,
+  horse: `吗 </br><em><small>mǎ</small></em>`,
+  bird: `鸟 </br><em><small>bird</small></em>`,
 };
 
 let explain = {
@@ -43,6 +48,23 @@ let explain = {
   </br><em><small>Measure: </small></em><b>只</b> zhī`,
 
   bear: `<b>幼熊</b> yòu xióng <em><small>: bear cub</small></em> 
+  </br><b>玩具熊</b> wánjù xióng <em><small>: teddy bear 
+  </br>Measure: </small></em><b>头</b> tóu`,
+
+  hedgehog: `<em><small>Related: </small></em><b>猬集</b> wèijí<em><small>: (of matters) as numerous as the spines of a hedgehog</small></em>`,
+
+  duck: `<b>小鸭</b> xiǎoyā <em><small>: duckling
+  </br>Slang: </small></em><b> 鸭 </b>yā /<b> 鸭子 </b> yāzi<small><em> : male prostitute
+  </br><em><small>Measure: </small></em><b>只</b> zhī`,
+
+  cow: `<b>公牛</b> gōngniú <em><small>: bull</em></small>
+  <br/><b>我属牛</b> wǒ shǔniú <em><small>: I was born in the year of the Ox</small></em>
+  <br/><em><small>Adjective: </small></em><b>有什么可牛的</b> yǒu shénme kě niú de<em><small> : There's nothing worth bragging about</small></em>
+  <br/><em><small>Measure: </small></em><b> 条 </b>tiáo /<b> 头 </b> tóu<small><em>`,
+
+  horse: `<center><em><small>Measure: </small></em><b>匹</b> pǐ</center>`,
+
+  bird: `<b>鸟儿</b> yòu xióng <em><small>: bear cub</small></em> 
   </br><b>玩具熊</b> wánjù xióng <em><small>: teddy bear 
   </br>Measure: </small></em><b>头</b> tóu`,
 };
